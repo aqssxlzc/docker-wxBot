@@ -1,4 +1,5 @@
 FROM jfloff/alpine-python:2.7
+MAINTAINER aqssxlzc@gmail.com
 RUN apk upgrade --update && apk add freetype-dev \
 libjpeg-turbo-dev \
 libpng-dev
